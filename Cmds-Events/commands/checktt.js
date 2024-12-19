@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "checktt",
 	version: "1.6.9",
 	hasPermssion: 0,
-	credits: "Nazrul",
+	credits: "",
 	description: "interactive check",
 	commandCategory: "Utilities",
 	usages: "checktt",
