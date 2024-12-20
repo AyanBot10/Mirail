@@ -48,7 +48,7 @@ module.exports.run = function({ api, event, args, getText }) {
         const returnArray = arrayInfo.slice(startSlice, startSlice + numberOfOnePage);
 
         const header = `🔹 Help Menu 🔹\n━━━━━━━━━━━━━━━\nPage (${page}/${Math.ceil(arrayInfo.length / numberOfOnePage)})\n━━━━━━━━━━━━━━━\n\n`;
-        const footer = `━━━━━━━━━━━━━━━\n\n📌 Total Commands: ${arrayInfo.length}\n🛠️ Prefix: ${prefix}\n👑 Owner: ♡ Nazrul ♡\n\nUse: "${prefix}help <command>" for details.\n`;
+        const footer = `━━━━━━━━━━━━━━━\n\n📌 Total Commands: ${arrayInfo.length}\n🛠️ Prefix: ${prefix}\n👑 Owner: ♡ A Y A N ♡\n\nUse: "${prefix}help <command>" for details.\n`;
 
         for (let item of returnArray) {
             msg += `🔸 ${++i}. ${prefix}${item}\n`;
